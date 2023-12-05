@@ -1,0 +1,12 @@
+.contenedor {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-areas: 
+        "header header header header"
+        "nav nav nav nav"
+        "contenido contenido contenido lateral"
+        "footer footer footer footer"
+    ;
+    grid-template-rows: 100px 70px auto 70px;
+  }
